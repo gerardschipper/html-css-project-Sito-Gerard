@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dit is mijn title-tabblad</title>
+<style type="text/css">
+.cont {
+	margin:10%;
+	width:900px;
+}
+.header  {
+	width:900px;
+	height: 100px;
+	color:green;
+	margin: 0 auto;
+	background-color:orange;
+}
+.body {
+	width:600px;
+	background:#666;
+	height:600px;
+	color:white;
+	padding:10px;
+	float:left;
+}
+.sidebar {
+	width:280px;
+	height:600px;
+	background:pink;
+	float:right;
+}
+.clear
+clear:both;
+</style> 
+</head>
+<body>
+<div class="cont">
+<div class="header">
+een hedder.
+</div>
+<div class="clear"></div>
+<div class="body">
+Dit is een body voor htmllayout, gebruik van dif-tags. Gebleven bij 12 van 15
+
+<p>Dit kan een pagina zijn.</p>
+
+<h1>heading h1</h1>
+<h2>heading h2</h2>
+<h3>heading h3</h3>
+<h4>heading h4</h4>
+<h5>heading h5</h5>
+<h6>heading h6</h6>
+
+<font size="4" color="white">
+
+Hier staat even wat tekst dmv font. 
+</font>
+</div>
+<div class="sidebar">
+Dit is een sidebar.
+</div>
+</div>
+</body>
+
+
+
+
+<!--
+<marquee scrollamount="10">
+<img src="GonBest.jpg" width="20" height="20" border="3">
+<img src="GonBest.jpg" width="20" height="20" border="3">
+<img src="GonBest.jpg" width="20" height="20" border="3">
+<img src="GonBest.jpg" width="20" height="20" border="3">
+</marquee>
+
+<marquee bgcolor="lightblue" behavior="scroll" scrollamount="10" direction="right">
+Dit is een marquee!
+</marquee>
+-->
+
+
+<ul>
+<li>Thee</li>
+<li>Koffie</li>
+<li>Water</li>
+<li>Sparood</li>
+
+</ul>
+
+<ol>
+<li>Blauw</li>
+<li>rood</li>
+<li>groen</li>
+<li>blauw</li>
+</ol>
+
+<table bgcolor="orange" border="2" align="center" cellspacing="1" cellpadding="1">
+    <tr bgcolor="green">
+           <td bgcolor="yellow">naam</td>
+           <td>groot</td>
+           <td>klein</td>
+           <td>result</td>
+
+    </tr>
+    <tr>
+           <td>naam</td>
+           <td>groot</td>
+           <td>klein</td>
+           <td>result</td>
+
+    </tr>
+    <tr>
+           <td>naam</td>
+           <td>groot</td>
+           <td><img src="GonBest.jpg" width="15" height="15"></td>
+           <td><a href="http://www.google.com">result</a></td>
+
+    </tr>
+</table>
+
+<form action="about.html" method="">
+
+  Name:<input type="text"><br>
+  Password:<input type="password"><br>
+  Geslacht:Man<input type="radio" name="geslacht">
+  Vrouw<input type="radio" name="geslacht"><br>
+  Akkoord: Ja<input type="checkbox">
+  of Nee<input type="checkbox"><br>
+  Selecteer het:<select>
+            <option>kies hier</option>
+            <option>Iets</option>
+            <option>Of anders</option>
+            <option>Hier</option>
+            <option>lijst</option>
+</select><br>
+Bestand:<input type="file"><br>
+<input type="submit" value="ja, doe maar">
+
+
+</form>
+</html>
